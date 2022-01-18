@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main(int argc, char const *argv[])
 {
@@ -16,8 +16,7 @@ int main(int argc, char const *argv[])
     while ((c = fgetc(fp)) != EOF) {
         if (c == '(') {
             count++;
-        }
-        else {
+        } else {
             count--;
         }
     }
@@ -30,8 +29,7 @@ int main(int argc, char const *argv[])
         ++i;
         if (c == '(') {
             count++;
-        }
-        else {
+        } else {
             count--;
         }
     }
